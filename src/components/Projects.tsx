@@ -32,7 +32,7 @@ export const Projects = () => {
       title: 'Commitment of Traders Analysis',
       description: 'Created comprehensive Power BI dashboards for monitoring key performance indicators across FX markets.',
       technologies: ['Power BI', 'DAX', 'Power Query'],
-      image: import.meta.env.BASE_URL + 'COT Dashboard.png',
+      image: import.meta.env.BASE_URL + 'COT_Dashboard.png',
       type: 'professional',
       link: 'https://drive.google.com/file/d/1XKGOFJ-rrGz5001c-3FcNRvLvne-jawZ/view' // Example link, replace with actual
     },
