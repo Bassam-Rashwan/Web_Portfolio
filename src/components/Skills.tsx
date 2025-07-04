@@ -3,12 +3,12 @@ export const Skills = () => {
   const skillCategories = [
     {
       title: "Data Analysis & Visualization",
-      skills: ["Power BI", "Power Query", "Power Pivot", "Tableau", "Excel", "DAX"],
+      skills: ["Power BI", "Power Query", "Power Pivot", "DAX","Tableau", "Excel"],
       color: "from-blue-500 to-cyan-500"
     },
     {
       title: "Programming & Database",
-      skills: ["Python", "SQL", "R", "Statistical Modeling"],
+      skills: ["Python", "SQL"],
       color: "from-purple-500 to-pink-500"
     },
     {
@@ -18,7 +18,7 @@ export const Skills = () => {
     },
     {
       title: "Machine Learning",
-      skills: ["Regression Analysis", "Logistic Regression", "Clustering", "Time Series Prediction"],
+      skills: ["Regression Analysis", "Logistic Regression","XGBOOST" ,"Clustering", "Time Series Prediction"],
       color: "from-orange-500 to-red-500"
     }
   ];
