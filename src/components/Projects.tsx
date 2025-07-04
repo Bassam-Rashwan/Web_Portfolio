@@ -23,7 +23,7 @@ export const Projects = () => {
       title: 'Asset Regime & Macro Insights Dashboard',
       description: 'provides a dynamic view into market behavior by combining real-time data from financial markets with regime detection models and macroeconomic indicators',
       technologies: ['Python', 'SQL Server', 'Tableau', 'Machine Learning'],
-      image: '/Tableau_Market_Regime_Detection.jpeg',
+      image: import.meta.env.BASE_URL + 'Tableau_Market_Regime_Detection.jpeg',
       type: 'professional',
       link: 'https://lnkd.in/db4azra4' // Example link, replace with actual
     },
@@ -32,7 +32,7 @@ export const Projects = () => {
       title: 'Commitment of Traders Analysis',
       description: 'Created comprehensive Power BI dashboards for monitoring key performance indicators across FX markets.',
       technologies: ['Power BI', 'DAX', 'Power Query'],
-      image: '/COT Dashboard.png',
+      image: import.meta.env.BASE_URL + 'COT Dashboard.png',
       type: 'professional',
       link: 'https://drive.google.com/file/d/1XKGOFJ-rrGz5001c-3FcNRvLvne-jawZ/view' // Example link, replace with actual
     },
@@ -41,10 +41,9 @@ export const Projects = () => {
       title: 'S&P500 Analysis and Prediction with LSTM model Using Python and Dash',
       description: 'Developed a comprehensive analysis and prediction model for the S&P500 index using LSTM neural networks, visualized with Dash.',
       technologies: ['Machine Learning', 'Python', 'Dash'],
-      image: ' /LSTM_Project.png',
+      image: import.meta.env.BASE_URL + 'LSTM_Project.png',
       type: 'professional',
       link: 'https://drive.google.com/file/d/1Bo86g6A_0Q4KXOK-yAQEmGcwMTU32U77/view' // Example link, replace with actual
-
     }
   ]);
 
